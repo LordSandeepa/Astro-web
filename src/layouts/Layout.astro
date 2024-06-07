@@ -53,7 +53,7 @@ const makeTitle = title ? title : "Sandeepa";
     <SEO
       title={makeTitle}
       description="A portfolio website built with latest technologies by Sandeepa Bandara"
-      canonical={canonicalURL}
+     
       twitter={{
         creator: "@sandeepabandara",
         site: "@andeepabandara",
@@ -61,7 +61,7 @@ const makeTitle = title ? title : "Sandeepa";
       }}
       openGraph={{
         basic: {
-          url: canonicalURL,
+         
           type: "website",
           title: `Sandeepa Bandara`,
           image: resolvedImageWithDomain,
@@ -75,16 +75,7 @@ const makeTitle = title ? title : "Sandeepa";
       }}
     />
   
-    <script type="text/partytown">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-S9TKKTL84G");
-    </script>
-
-    <title>{title}</title>
+    
   </head>
   <body>
     <Glow client:only />
