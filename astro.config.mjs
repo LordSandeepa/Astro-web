@@ -11,7 +11,7 @@ import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
-
+  site: "https://sandeepa-net.netlify.app",
   prefetch: true,
   markdown: {
     ...markdownConfig
@@ -31,7 +31,7 @@ export default defineConfig({
       forward: ["dataLayer.push"]
     }
   }), robotsTxt({
-    
+    sitemap: ['https://sandeepa-net.netlify.app/sitemap-0.xml', 'https://sandeepa-net.netlify.app/sitemap-index.xml']
   }), playformCompress()]
   // output: "server",
   // adapter: vercel({
