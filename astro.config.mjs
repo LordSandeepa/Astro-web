@@ -11,7 +11,7 @@ import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sandeepa-net.netlify.app",
+  site: "https://github.com/LordSandeepa/Sandeepa-web",
   prefetch: true,
   markdown: {
     ...markdownConfig
