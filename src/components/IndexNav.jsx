@@ -85,7 +85,7 @@ export default function IndexNav() {
                   </a>
                   <a onClick={() => isShow(false)}
                     aria-label="about"
-                    href="https://drive.google.com/file/d/1uj2AZd9DCsfwUwZc0qHtMXRHuTCyUidR/view?usp=sharing">Download CV</a>
+                    href="https://drive.google.com/file/d/1tlxW07RDsIzHc-F0jsYdSYIr0LBeaKtR/view?usp=sharing">Download CV</a>
                 </ul>
               </div>
             </div>
